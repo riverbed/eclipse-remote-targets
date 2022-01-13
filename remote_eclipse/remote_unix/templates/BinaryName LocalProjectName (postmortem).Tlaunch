@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.cdt.launch.postmortemLaunchType">
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.AUTO_SOLIB" value="true"/>
+<listAttribute key="org.eclipse.cdt.debug.mi.core.AUTO_SOLIB_LIST"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.DEBUG_NAME" value="${workspace_loc:remote_eclipse/local_os/${system:OS}/remote-gdb.cmd}"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.GDB_INIT" value="ZzRemoteProjectDir/ZzModuleName/ZzMainBinPath/gdbinitpm"/>
+<listAttribute key="org.eclipse.cdt.debug.mi.core.SOLIB_PATH"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.STOP_ON_SOLIB_EVENTS" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.breakpointsFullPath" value="false"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.commandFactory" value="org.eclipse.cdt.debug.mi.core.standardCommandFactory"/>
+<stringAttribute key="org.eclipse.cdt.debug.mi.core.protocol" value="mi"/>
+<booleanAttribute key="org.eclipse.cdt.debug.mi.core.verboseMode" value="false"/>
+<booleanAttribute key="org.eclipse.cdt.dsf.gdb.AUTO_SOLIB" value="true"/>
+<listAttribute key="org.eclipse.cdt.dsf.gdb.AUTO_SOLIB_LIST"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="ZZDebuggerBinary -pm -launchFile ZzLaunchFile"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value="ZzRemoteProjectDir/ZzModuleName/ZzMainBinPath/gdbinitpm"/>
+<stringAttribute key="org.eclipse.cdt.dsf.gdb.POST_MORTEM_TYPE" value="CORE_FILE"/>
+<listAttribute key="org.eclipse.cdt.dsf.gdb.SOLIB_PATH"/>
+<intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="0"/>
+<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value="./"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="gdb"/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_REGISTER_GROUPS" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="core"/>
+<stringAttribute key="org.eclipse.cdt.launch.FORMAT" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;contentList/&gt;"/>
+<stringAttribute key="org.eclipse.cdt.launch.GLOBAL_VARIABLES" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;globalVariableList/&gt;&#13;&#10;"/>
+<stringAttribute key="org.eclipse.cdt.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList/&gt;&#13;&#10;"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="ZzModuleName/ZzMainBinPath/ZZMainBinary"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="LocalProjectName"/>
+<booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/LocalProjectName"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.preferred_launchers">
+<mapEntry key="[debug]" value="org.eclipse.cdt.dsf.gdb.launch.coreCLaunch"/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.debug.core.source_locator_id" value="org.eclipse.cdt.debug.core.sourceLocator"/>
+<stringAttribute key="org.eclipse.debug.core.source_locator_memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;sourceLookupDirector&gt;&#13;&#10;&lt;sourceContainers duplicates=&quot;false&quot;&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;mapping backend_enabled=&amp;quot;false&amp;quot; name=&amp;quot;Main Mapping&amp;quot;&amp;gt;&amp;#13;&amp;#10;&amp;lt;/mapping&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.cdt.debug.core.containerType.mapping&quot;/&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;project name=&amp;quot;LocalProjectName&amp;quot; referencedProjects=&amp;quot;false&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.cdt.debug.core.containerType.project&quot;/&gt;&#13;&#10;&lt;container memento=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot; standalone=&amp;quot;no&amp;quot;?&amp;gt;&amp;#13;&amp;#10;&amp;lt;folder nest=&amp;quot;false&amp;quot; path=&amp;quot;/hdrcachepath&amp;quot;/&amp;gt;&amp;#13;&amp;#10;&quot; typeId=&quot;org.eclipse.debug.core.containerType.folder&quot;/&gt;&#13;&#10;&lt;/sourceContainers&gt;&#13;&#10;&lt;/sourceLookupDirector&gt;&#13;&#10;"/>
+<ZZfav_listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+</ZZfav_listAttribute>
+</launchConfiguration>

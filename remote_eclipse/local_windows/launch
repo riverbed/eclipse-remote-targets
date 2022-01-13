@@ -1,0 +1,24 @@
+#! /bin/bash
+#
+# launch -- Launcher for Windows (uses cmd.exe and start)
+#
+# Copyright (c) 2022 Riverbed Technology LLC
+#
+# This software is licensed under the terms and conditions of the MIT License
+# accompanying the software ("License").  This software is distributed "AS IS"
+# as set forth in the License.
+#
+
+source common-win-functions.sh 
+
+if [[ "${#}" == "1" ]]; then
+    # File name has .tsv extension
+    if [[ "${1}" != "${1%\.tsv}" ]]; then
+        PREOPTIONS=${SPREADSHEET_PROG:-excel}
+    fi
+fi
+
+getOptConvertFilenamesUnixToDos "$@"
+
+eval "cmd.exe //c start \"Launch File\" $PREOPTIONS $OPTIONS"
+exit $?

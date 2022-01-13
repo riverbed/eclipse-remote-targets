@@ -1,0 +1,27 @@
++ /CVS/Tag
+/CVS/*
+/**/CVS
+.#*
+*~
+*.DLL
+*.dll
+*.EXE
+*.exe
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.tbz
+*.tgz
+*.core
+*.pyc
+.nfs.*
+.thecurrentbinary
+.git
+.DS_Store
+/.settings
+/.cproject
+/.project
+/.remoteEclipse

@@ -1,0 +1,14 @@
+// README.adoc
+// Copyright (c) 2022 Riverbed Technology LLC
+//
+// This software is licensed under the terms and conditions of the MIT License
+// accompanying the software ("License").  This software is distributed "AS IS"
+// as set forth in the License.
+//
+
+This is a stub for creating a "Hello World"-style application, by the name of
+thebinary, which uses the build scripts for ZzModuleName.
+
+You can add more sources and cmake should pick them up automatically, or
+alternatively change the CMakeLists.txt file to explicitly specify the
+files to confirm.

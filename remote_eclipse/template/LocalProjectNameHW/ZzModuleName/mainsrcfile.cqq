@@ -1,0 +1,45 @@
+///
+/// @file mainsrcfile.cqq
+///
+/// Main source file for thebinary.
+///
+/// @copyright Copyright (c) 2022 Riverbed Technology LLC
+///
+/// This software is licensed under the terms and conditions of the MIT License
+/// accompanying the software ("License").  This software is distributed "AS IS"
+/// as set forth in the License.
+///
+
+///
+/// @author cvsusr@riverbed.com
+///
+///
+
+/// @mainpage LocalProjectNameHW
+///
+/// This is a main page for LocalProjectNameHW.
+///
+/// This document describes the functioning of thebinary.
+///
+/// @copyright Copyright (c) 2022 Riverbed Technology LLC
+///
+/// This software is licensed under the terms and conditions of the MIT License
+/// accompanying the software ("License").  This software is distributed "AS IS"
+/// as set forth in the License.
+///
+/// @author cvsusr@riverbed.com
+///
+///
+#include <iostream>
+
+/// @brief  Main function for thebinary
+/// @param  argc An integer argument count of the command line arguments
+/// @param  argv An argument vector of the command line arguments
+/// @return an integer 0 upon exit success
+///
+int main(int argc, char* argv[])
+{
+    std::cout << "Hello World!" << std::endl;
+
+    return 0;
+}

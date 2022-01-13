@@ -1,0 +1,24 @@
+#! /bin/bash
+#
+# unix2platform -- wrapper for a unix2platform emulator (for unix, a no-op)
+#
+# Copyright (c) 2022 Riverbed Technology LLC
+#
+# This software is licensed under the terms and conditions of the MIT License
+# accompanying the software ("License").  This software is distributed "AS IS"
+# as set forth in the License.
+#
+
+if [[ -z "$1" ]]; then
+    # Used as a pipe, it is effectively cat
+    cat
+else
+    if [[ -e "$1" ]]; then
+    # Actually, it does nothing at all.  Don't even touch the file.
+    echo "$1: done." 1>&2
+    else
+        echo "unix2platform processing $1 (could not open input file):" \
+             "No such file or directory" 1>&2
+        exit 255
+    fi
+fi

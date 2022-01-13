@@ -1,0 +1,15 @@
+*.h
+*.hh
+*.hpp
+*.hxx
+*.cc
+*.cpp
+*.cxx
+*.c
+*.py
+*.spec
+*.cmake
+*.in
+remote_eclipse_build.sh
+remote_eclipse_rsync_exclude.txt
+CMakeLists.txt
